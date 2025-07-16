@@ -3,12 +3,13 @@
 }
 
 body {
-	background-color: #d9d9d9;
+	background-color: #FFD2E3;
 }
 
 p {
 	font-family: arial;
 	font-size: 20px;
+	color: #E05A8D;
 }
 
 .periodictable {
@@ -30,27 +31,26 @@ p {
 
 .periodictable img {
 	width: 100%;
-	border: 1px solid black;
+	border: 1px solid #E05A8D;
 	background-color: white;
 	margin-bottom: -5px;
 }
 
 .periodictable img:hover {
-	color: white;
-	opacity: 50%;
+	scale: 1.2;
 }
 
 .charbox {
 	margin: auto;
 	margin-top: 75px;
 	width: 768px;
-	border: 2px solid black;
+	border: 2px solid #E05A8D;
 	background-color: white;
 }
 
 .cube {
 	position: relative;
-	border: 5px solid black;
+	border: 5px solid #E05A8D;
 	background-color: white;
 	width: 125px;
 	height: 125px;
@@ -72,17 +72,21 @@ p {
 
 .close a {
 	text-decoration: none;
-	color: black;
+	color: #E05A8D;
 }
 
 .close a:hover {
 	text-decoration: none;
-	color: grey;
+	color: #F17DA9;
 }
 
 .charmain {
 	width: 600px;
 	margin-top: -200px;
+}
+
+hr {
+	border: 1px solid #E05A8D;
 }
 
 .geninfo p {
